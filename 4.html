@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Number 4 with Borders</title>
+<style>
+    .number {
+        width: 100px;
+        height: 150px;
+        position: relative;
+        border: 2px solid black;
+    }
+    .horizontal-line {
+        position: absolute;
+        top: 55%;
+        left: 10%;
+        width: 80%;
+        border-top: 2px solid black;
+    }
+    .vertical-line {
+        position: absolute;
+        top: 10%;
+        left: 70%;
+        height: 70%;
+        border-left: 2px solid black;
+    }
+    .slant{
+        position: absolute;
+        top: 0%;
+        left: 40%;
+        height: 65%;
+        border-left: 2px solid black;
+        transform: rotate(45deg);
+    }
+</style>
+</head>
+<body>
+    <div class="number">
+        <div class="slant"></div>
+        <div class="horizontal-line"></div>
+        <div class="vertical-line"></div>
+    </div>
+</body>
+</html>
+
